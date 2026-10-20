@@ -1,0 +1,32 @@
+{
+  "name": "aviatorsimilar",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@pixi/core": "^7.4.3",
+    "@pixi/filter-blur": "^7.4.3",
+    "@pixi/filter-godray": "^5.1.1",
+    "@pixi/sound": "^6.0.1",
+    "gsap": "^3.13.0",
+    "netlify-cli": "^22.2.1",
+    "pixi.js": "^8.8.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "prettier": "^3.5.3",
+    "vite": "^6.2.0"
+  }
+}
